@@ -8,7 +8,7 @@
     <meta name="description"
         content="Western 91 Security LLC — Personal Cybersecurity Consulting based in St. Louis, MO.">
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600&family=Outfit:wght@300;400&display=swap');
 
         *,
         *::before,
@@ -29,7 +29,7 @@
             justify-content: center;
             background-color: #0a0a0a;
             color: #e0e0e0;
-            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            font-family: 'Raleway', -apple-system, BlinkMacSystemFont, sans-serif;
             -webkit-font-smoothing: antialiased;
         }
 
@@ -39,11 +39,18 @@
         }
 
         h1 {
-            font-size: clamp(1.6rem, 4vw, 2.8rem);
+            font-size: clamp(1.2rem, 2.8vw, 2.2rem);
             font-weight: 300;
             letter-spacing: 0.12em;
             text-transform: uppercase;
             color: #ffffff;
+            white-space: nowrap;
+        }
+
+        h1 .num {
+            font-family: 'Outfit', sans-serif;
+            font-weight: 300;
+            letter-spacing: 0.08em;
         }
 
         .divider {
@@ -73,7 +80,7 @@
 
 <body>
     <main>
-        <h1>Western 91 Security</h1>
+        <h1>Western <span class="num">91</span> Security</h1>
         <div class="divider"></div>
         <p>St. Louis, MO</p>
         <p class="principal">Jared Mayron · Principal</p>
